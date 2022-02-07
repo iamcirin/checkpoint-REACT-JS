@@ -1,0 +1,121 @@
+:root {
+  --color: rgba(127, 243, 247, 0.562);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("./images/img\ \(1\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  margin: 70px auto;
+  width: 65%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.459);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#one {
+  position: absolute;
+
+  top: -25px;
+  right: -25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: var(--color);
+  z-index: -3;
+}
+#two {
+  position: absolute;
+
+  bottom: -40px;
+  left: -25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(241, 252, 149, 0.651);
+  z-index: -3;
+}
+
+#three {
+  position: absolute;
+
+  top: 70px;
+  left: -45px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(183, 255, 231, 0.637);
+  z-index: -3;
+}
+
+#four {
+  position: absolute;
+
+  bottom: -25px;
+  right: -25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(4, 5, 5, 0.733);
+  z-index: -3;
+}
+
+#six {
+  position: absolute;
+
+  top: -50px;
+  right: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(4, 5, 5, 0.788);
+  z-index: -3;
+}
+#seven {
+  position: absolute;
+
+  top: 250px;
+  right: 180px;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: rgba(232, 159, 247, 0.637);
+  z-index: -3;
+}
+.form {
+  width: 80%;
+  color: rgb(226, 225, 225);
+  font-size: 18px !important;
+}
+
+.text {
+  color: rgb(153, 224, 183) !important;
+}
+
+/* .input {
+  width: 280px !important;
+} */
+
+@media screen and (min-width: 836px) {
+  #container {
+    width: 45%;
+  }
+}
